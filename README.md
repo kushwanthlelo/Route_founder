@@ -13,11 +13,11 @@ This project is practical implementation of data structures. This website finds 
  <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one.JPG">
  
   * Sign up   (using passport.js)
- <img src="https://github.com/kushwanthlelo/Route_founder_React_version/blob/main/webreadme/p2.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder_with_ReactJS/blob/main/webreadme/p2.JPG">
 
  
  * Password will be sent to your email if you forgot the password for your email_ie
- <img src="https://github.com/kushwanthlelo/Route_founder_React_version/blob/main/webreadme/p16.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder_with_ReactJS/blob/main/webreadme/p16.JPG">
  
  * This app contains two views 1) User View ( Left Image) 2) Admin View ( Right Image). The basic difference between User view and Admin view is Dashboard (wee will see about dashboard later) and Customer care 
  
