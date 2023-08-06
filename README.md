@@ -21,64 +21,64 @@ This project is practical implementation of data structures. This website finds 
  
  * This app contains two views 1) User View ( Left Image) 2) Admin View ( Right Image). The basic difference between User view and Admin view is Dashboard (wee will see about dashboard later) and Customer care 
  
-<span>  <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two1.JPG" width="40%"></span><span> <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two2.JPG" width="40%"></span>
+<span>  <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two1.JPG" width="40%"></span><span> <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two2.JPG" width="40%"></span>
 
 
  
  * Search flights between Source to Destination
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one9.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one9.JPG">
  
  * Showing all the flights between Source to Destination 
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/three.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/three.JPG">
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/four.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/four.JPG">
 
  * Allowing user to book the flights
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/five.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/five.JPG">
  
  * Showing all the tickets booked by the user
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/six.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/six.JPG">
  
   
  * Updating User information
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one8.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one8.JPG">
  
  * Dashboard ( Admin View )
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one1.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one1.JPG">
  
  * View & Search all the tickets ( Admin View)
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one2.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one2.JPG">
  
  * View & Search & Update all the Users (Admin View)
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one6.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one6.JPG">
  
  * View & Search & Update all the Routes (Admin view)
 
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one5.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one5.JPG">
  
  * Add Path between two different locations (Admin View)
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one7.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one7.JPG">
  
  * Chat with Customer Care ( Customer View ):
  
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one3.JPG">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one3.JPG">
 
  * Chat with Customer ( Admin View ):
  
-  <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/oneone.JPG">
+  <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/oneone.JPG">
 
  * Sending Confirmation Mails
-  <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two3.JPG" width="80%">
- <img src="https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/two4.JPG" width="80%">
+  <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two3.JPG" width="80%">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/two4.JPG" width="80%">
 
  
  ## Tools and Technologies used
