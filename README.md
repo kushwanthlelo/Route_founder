@@ -10,7 +10,7 @@ This project is practical implementation of data structures. This website finds 
  ## Project Description
  
  * Normal Sign In (using passport.js)
- <img src="[https://github.com/kushwanthlelo/Route_founder/blob/master/webreadme/one.JPG](https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one.JPG)">
+ <img src="https://github.com/kushwanthlelo/Route_founder/blob/main/webreadme/one.JPG">
  
   * Sign up   (using passport.js)
  <img src="https://github.com/kushwanthlelo/Route_founder_React_version/blob/main/webreadme/p2.JPG">
