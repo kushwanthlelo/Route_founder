@@ -1,0 +1,64 @@
+<link rel='stylesheet' type='text/css' href='/css/orders_dashboard.css'>
+
+<div class="booking_background">
+    <%if(locals.bookings){%>
+        <%for(let booking of locals.bookings){%>
+    <div class="booking_list">
+        <img style="width:200px;height:200px" src=<%=booking.user_id.avatar%>>
+        <span class="thick">Ticket Id : </span><span class="thin"><%=booking.id%></span><br>
+        <span class="thick">Name : </span><span class="thin"><%=booking.user_id.name%></span><br>
+        <span class="thick">Email : </span><span class="thin"><%=booking.user_id.email%></span><br>
+        <span class="thick">Mobile : </span><span class="thin"><%=booking.user_id.mobile%></span><br>
+        <span class="thick">Journey Path : </span><span class="thin"><%=booking.path%></span><br>
+        
+        <span  class="thick">Passengers : </span><span class="thin"><%=booking.passengers%></span><br>
+        <span class="thick">Travel Date </span><span class="thin"><%=booking.date%></span><br>
+
+        <span class="thick">Journey Start Time : </span><span class="thin"><%=booking.start_time%></span><br>
+        <span class="thick">Journey End Time : </span><span class="thin"><%=booking.end_time%></span><br>
+        <span class="thick">Total Journey Time : </span><span class="thin"><%=booking.journey_time%></span><br>
+        <span class="thick">Total Flying Time : </span><span class="thin"><%=booking.travel_time%></span><br>
+        <span class="thick">Total Waiting Time : </span><span class="thin"><%=booking.wait_time%></span><br>
+
+
+        <span class="thick">Cost : </span><span class="thin"><%=booking.cost%></span><br>
+        <span class="thick">Buy Date : </span ><span class="thin"><%=booking.createdAt%></span><br>
+    </div>
+         <%}%>
+    <%}%>
+</div>
+
+
+
+<!-- 
+
+<div id='order_board'>
+    <%if(locals.bookings){%>
+    <div id='order_div'>   
+        <%for(let booking of locals.bookings){%>
+
+           
+            <div class="card text-white bg-info mb-4" style="max-width: 18rem;">
+                <div class="card-header"><button class='btn btn-danger'> <%=booking.createdAt%></button> </div>
+               
+                <div class="card-body">
+                  
+                  <h5 class="card-title"  style="color:yellow;"><h5>Ticket ID :</h5>   <%=booking._id%> <br><h5>Passengers :</h5>  <%=booking.passengers%></h5>
+                  
+                  <h5>Path :</h5>
+                  <p class="card-text"> <span style="text-align: left;"> <%=booking.path%></span>     <span style="text-align: right;color:rgb(217, 255, 0)">  <%=booking.cost%></span>      </p>
+                   
+                  
+                 <button class='btn btn-warning'><strong> Amount : </strong>  <%=booking.cost%> </button>
+            </div>
+            </div>
+
+
+             
+                     
+              
+           
+        <%}%>
+    </div>
+    <%}%>
+</div> -->

@@ -1,0 +1,55 @@
+<link type='text/css' rel='stylesheet' href='/css/newheader.css'>
+<nav class="header_nav">
+<span> goBIGgo </span>
+
+
+<span class="left_nav" id="left_nv">
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+        
+
+    <a class="nav_link" href="/user/routesearch"> <span class="hover_span">Home</span> </a>
+    
+    <%if(locals.user){%>
+        <a class="nav_link" href="/booking/showbooking"><span class="hover_span">Bookings</span></a>
+        <%if(user.email=="pkushwanthreddy@gmail.com"){%>
+            <a class="nav_link"  href="/dashboard"><span class="hover_span">Dashboard</span></a>
+
+           
+            <%}else{%>
+
+            <a class="nav_link" href="/user/chatroom"><span class="hover_span">Customer Care</span></a>
+
+            <%}%> 
+
+            <a class="nav_link" href="/user/update"><img style="width:20px; height: 20px;" src="<%=user.avatar%>">  <span class="hover_span">Update Profile</span></a>
+            <a class="nav_link " href="/user/logout"><span class="hover_span btn_link_red">Log Out</span></a>
+
+    <%}else{%>
+        <a  class="nav_link" href="/user/signin">  <span class="hover_span btn_link_green">Log In</span></a>
+
+        <a class="nav_link"  href="/user/signup" > <span class="hover_span btn_link_yellow">Sign Up</span></a>
+          </a>
+    <%}%>
+    
+
+</span>
+</nav>
+<script>
+
+function myFunction() {
+var x=document.getElementById("left_nv");
+if(x.className=="left_nav"){
+    console.log("nochange")
+    x.className+=" responsive";
+}else{
+    console.log("changed")
+    x.className="left_nav";
+}
+}
+</script>
+
+
+<script src="/js/header.js">    
+
+</script>
